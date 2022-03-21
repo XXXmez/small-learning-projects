@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.about-body {
+  max-width: 850px;
+  margin: 0 auto;
+}
+.about-header {
+  margin-bottom: 65px;
+}
+.about-title {
+  margin-bottom: 30px;
+}
+.about-text {
+  max-width: 650px;
+  color: #838383;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 25px;
+  margin: 0 auto;
+}
+.about-row {
+  display: flex;
+  margin: 0px -15px;
+}
+.about-column {
+  padding: 0px 15px;
+  flex: 0 0 33.33%;
+}
+
+.title {
+  font-size: 34px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  position: relative;
+  text-align: center;
+  padding-bottom: 30px;
+}
+.title:after {
+  content: "";
+  position: absolute;
+  width: 50px;
+  bottom: 0;
+  height: 1px;
+  left: 50%;
+  background-color: #000;
+  margin-left: -25px;
+}
+
+.item-about-ico {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+  border: 2px solid #d9d9d9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.item-about-title {
+  text-align: center;
+  color: #000;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 35px;
+}
+.item-about-text {
+  text-align: center;
+}
+
+/*# sourceMappingURL=style.css.map */
